@@ -17,7 +17,7 @@ from random import randint
 from numpy.linalg import norm
 from operator import itemgetter
 from collections import defaultdict
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 
 
 __all__ = ['blsh', 'clsh', 'hlsh', 'jlsh']
